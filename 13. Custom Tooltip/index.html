@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>13. Tooltip</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div
+      class="w-full min-h-[200vh] p-10 bg-zinc-900 text-white font-['montserrat']"
+    >
+      <div class="relative w-fit">
+        <button
+          id="hide"
+          class="bg-red-600 px-8 py-2 rounded-md font-semibold text-sm mb-10"
+        >
+          Tooltip
+        </button>
+        <div class="hidden tooltip w-full absolute -top-2 z-[2] -translate-y-full left-0 bg-green-500 p-2 px-3 font-semibold text-xs rounded-md">
+          Hello
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
