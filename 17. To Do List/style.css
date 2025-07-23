@@ -1,0 +1,20 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+html,
+body {
+      font-family: sans-serif;
+      position: relative;
+}
+
+.todo {
+      margin-top: 3rem;
+      max-width: 1280px;
+      width: 80vw;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+}
