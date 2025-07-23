@@ -84,10 +84,10 @@ If GitHub Pages is enabled, you can preview the projects directly in your browse
 To run the projects on your local machine:
 
 
-# Clone the repository
-git clone https://github.com/vitthal-korvan/JavaScript-DOM-Tasks.git
+## Clone the repository
+>>git clone https://github.com/vitthal-korvan/JavaScript-DOM-Tasks.git
 
-# Navigate into the project folder
-cd JavaScript-DOM-Tasks
+## Navigate into the project folder
+>>cd JavaScript-DOM-Tasks
 
-# Open any project folder and view index.html in your browser
+## Open any project folder and view index.html in your browser
